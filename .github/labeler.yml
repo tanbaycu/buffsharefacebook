@@ -1,0 +1,22 @@
+frontend:
+  - changed-files:
+      - any-glob-to-any-file: ["src/**/*.{ts,tsx,css,scss,html}", "public/**/*"]
+
+backend:
+  - changed-files:
+      - any-glob-to-any-file: ["server/**/*"]
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: ["**/*.md"]
+
+configuration:
+  - changed-files:
+      - any-glob-to-any-file:
+          [
+            ".github/**/*",
+            "package.json",
+            "tsconfig.json",
+            "vite.config.ts",
+            "tailwind.config.js",
+          ]

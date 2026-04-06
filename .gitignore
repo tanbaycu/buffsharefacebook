@@ -1,0 +1,22 @@
+# Credentials
+cookies.txt
+cookies_*.txt
+
+# Logs and outputs
+post_ids.txt
+post_ids_*.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+get_post_id.py
+
+# OS files
+.DS_Store
+Thumbs.db
